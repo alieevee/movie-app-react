@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 function Navbar() {
   return (
@@ -7,10 +7,11 @@ function Navbar() {
       <nav className="navbar navbar-light bg-dark mb-5">
         <div className="container">
           <div className="navbar-header">
-            <Link className="navbar-brand text-white text-lg brand-text" to="/">
-              Find your movie here!
-            </Link>
+            <a className="navbar-brand text-white text-lg brand-text" href = "#">
+                Find a movie here!
+            </a>
           </div>
+         
         </div>
       </nav>
     </div>
